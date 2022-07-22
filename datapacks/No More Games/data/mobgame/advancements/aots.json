@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:iron_axe"
+                  ],
+                  "nbt": "{CustomModelData:707113}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mobgame:abilities/class/pillager_passive"
+    }
+  }
+  

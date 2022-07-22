@@ -1,0 +1,49 @@
+#> CustomModelData Numbers
+# Prefix: 707XYY
+# X = Game prefix, YY = Identifier
+
+#> Mob Mania
+# Game prefix: 1
+# Armor order: chestplate -> leggings -> boots
+# Full prefix: 7071
+
+Unused:
+09,
+
+Utility:
+00, 32, 33
+
+Zombie:
+Armor - 01, 02, 03
+Sword - 04
+
+Enderman:
+Armor - 05, 06, 07
+Sword - 08
+
+Pillager
+Armor - 10, 11, 12
+Axe - 13
+Crossbow - 14
+
+Steve
+Armor - 15, 16, 17
+Sword - 18
+
+Vex
+Armor - 19, 20, 21
+Sword - 22
+
+Evoker
+Armor - 23, 24, 25
+Sword - 26
+Totem - 27
+
+Blaze
+Armor - 28, 29, 30
+Sword - 31,
+Ability - 43
+
+Cultist
+Armor - 34, 35, 36
+Sword - 37

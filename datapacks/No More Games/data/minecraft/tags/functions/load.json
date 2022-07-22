@@ -1,0 +1,9 @@
+{
+    "values":[
+        "mobgame:init",
+        "main:gamerules",
+        "main:teamlogic",
+        "raycast:blaze/init",
+        "main:variables"
+    ]
+}
