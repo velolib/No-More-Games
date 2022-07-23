@@ -40,3 +40,12 @@ scoreboard players set @a mobgame.cooldown3 0
     scoreboard objectives add mobgame.zombie_heal minecraft.custom:damage_dealt
     scoreboard players set @a mobgame.zombie_heal 0
     #declare objective mobgame.zombie_heal
+
+    #> Steve
+    scoreboard objectives add mobgame.steve_kill playerKillCount
+    scoreboard players set @a mobgame.steve_kill 0
+    #declare objective mobgame.steve_kill
+
+    #> Evoker
+    scoreboard objectives add mobgame.evoker_totem minecraft.used:totem_of_undying
+    scoreboard players set @a mobgame.evoker_totem 0

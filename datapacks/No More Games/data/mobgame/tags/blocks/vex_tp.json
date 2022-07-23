@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:air",
+        "minecraft:vine",
+        "minecraft:water",
+        "minecraft:structure_void"
+    ]
+}

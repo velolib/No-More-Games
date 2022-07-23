@@ -1,4 +1,10 @@
 {
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2022-07-23 18:28:39 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2022-07-22 12:46:08 +0700"

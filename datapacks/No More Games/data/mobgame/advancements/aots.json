@@ -20,7 +20,7 @@
       }
     },
     "rewards": {
-      "function": "mobgame:abilities/class/pillager_passive"
+      "function": "mobgame:abilities/class/pillager/pillager_passive"
     }
   }
   
