@@ -1,6 +1,7 @@
 #> mobgame:abilities/class/vex_succeed
 # good.
 
+#> Teleport behind
 execute as @s[team=Aqua] run tp @s ^ ^ ^-1.1 facing entity @a[team=!Aqua,distance=..12,limit=1,sort=nearest]
 execute as @s[team=Blue] run tp @s ^ ^ ^-1.1 facing entity @a[team=!Blue,distance=..12,limit=1,sort=nearest]
 execute as @s[team=Gold] run tp @s ^ ^ ^-1.1 facing entity @a[team=!Gold,distance=..12,limit=1,sort=nearest]
@@ -11,6 +12,7 @@ execute as @s[team=Violet] run tp @s ^ ^ ^-1.1 facing entity @a[team=!Violet,dis
 execute as @s[team=White] run tp @s ^ ^ ^-1.1 facing entity @a[team=!White,distance=..12,limit=1,sort=nearest]
 playsound entity.vex.hurt master @a ~ ~ ~
 
+#> Slow enemy
 execute as @s[team=Aqua] run effect give @a[team=!Aqua,distance=..12,limit=1,sort=nearest] slowness 2 2 true
 execute as @s[team=Blue] run effect give @a[team=!Blue,distance=..12,limit=1,sort=nearest] slowness 2 2 true
 execute as @s[team=Gold] run effect give @a[team=!Gold,distance=..12,limit=1,sort=nearest] slowness 2 2 true

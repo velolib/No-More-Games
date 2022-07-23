@@ -1,6 +1,7 @@
 #> mobgame:abilities/class/enderman_active
 # Enderman Void Reaver
 
+#> Activation check
 execute if score @s mobgame.cooldown1 matches 1200.. if entity @s[team=Aqua] run effect give @a[team=!Aqua,distance=..15] glowing 15 0 true
 execute if score @s mobgame.cooldown1 matches 1200.. if entity @s[team=Aqua] run effect give @a[team=!Aqua,distance=..15] darkness 15 0 true
 execute if score @s mobgame.cooldown1 matches 1200.. if entity @s[team=Blue] run effect give @a[team=!Blue,distance=..15] glowing 15 0 true
@@ -19,8 +20,10 @@ execute if score @s mobgame.cooldown1 matches 1200.. if entity @s[team=White] ru
 execute if score @s mobgame.cooldown1 matches 1200.. if entity @s[team=White] run effect give @a[team=!White,distance=..15] darkness 15 0 true
 execute if score @s mobgame.cooldown1 matches 1200.. run playsound minecraft:entity.enderman.stare master @a ~ ~ ~ 0.9375
 execute if score @s mobgame.cooldown1 matches 1200.. run playsound minecraft:entity.enderman.scream master @a ~ ~ ~ 0.9375
+
+#> Failure check
 execute if score @s mobgame.cooldown1 matches ..1199 run function main:cooldown_sfx
 
-
+#> Score reset
 execute if score @s mobgame.cooldown1 matches 1200.. run scoreboard players set @s mobgame.cooldown1 0
 scoreboard players set @s mobgame.right_click_test 0
