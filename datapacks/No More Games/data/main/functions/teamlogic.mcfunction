@@ -11,6 +11,7 @@ team remove Maroon
 team remove Purple
 team remove Violet
 team remove White
+team remove Observer
 
 #> Teams
 # Aqua Axolotls
@@ -102,3 +103,13 @@ team modify White seeFriendlyInvisibles true
 team modify White nametagVisibility hideForOtherTeams
 team modify White prefix [{"text": "♬","color": "white","bold": true},{"text": " White Worms ","color": "white","bold": true},{"text": "♬ ","color": "white","bold": true}]
 
+# Observer
+team add Observer [{"text": "Ӝ","color": "dark_aqua","bold": false},{"text": " Observer ","color": "dark_aqua","bold": false},{"text": "Ӝ","color": "dark_aqua","bold": false}]
+team modify Observer collisionRule never
+team modify Observer deathMessageVisibility always
+team modify Observer color dark_aqua
+team modify Observer friendlyFire false
+team modify Observer displayName [{"text": "Ӝ","color": "dark_aqua","bold": false},{"text": " Observer ","color": "dark_aqua","bold": false},{"text": "Ӝ","color": "dark_aqua","bold": false}]
+team modify Observer seeFriendlyInvisibles true
+team modify Observer nametagVisibility hideForOtherTeams
+team modify Observer prefix [{"text": "Ӝ","color": "dark_aqua","bold": false},{"text": " Observer ","color": "dark_aqua","bold": false},{"text": "Ӝ ","color": "dark_aqua","bold": false}]
