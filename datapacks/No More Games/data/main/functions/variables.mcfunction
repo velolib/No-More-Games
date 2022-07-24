@@ -32,3 +32,6 @@ scoreboard objectives add velo.op dummy
 
 scoreboard players set velo.op_600 velo.op 600
 #define score_holder velo.op_600
+
+scoreboard players set velo.op_300 velo.op 300
+#define score_holder velo.op_300

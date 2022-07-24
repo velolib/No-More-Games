@@ -26,7 +26,8 @@ execute as @s[nbt={SelectedItem:{tag:{CustomModelData:707100}}},scores={mobgame.
 execute as @s[scores={mobgame.class_id=6,mobgame.evoker_totem=1..}] run function mobgame:abilities/class/evoker/evoker_passive
 
 #> Blaze - A/P
-execute as @s[scores={mobgame.class_id=7}] run function mobgame:abilities/class/blaze
+execute as @s[nbt={SelectedItem:{tag:{CustomModelData:707100}}},scores={mobgame.class_id=7,mobgame.right_click_test=1..}] run function mobgame:abilities/class/blaze/blaze_active
+execute as @s[scores={mobgame.class_id=7}] run function mobgame:abilities/class/blaze/blaze_passive
 
 #> Cultist - A
 execute as @s[scores={mobgame.class_id=8}] run function mobgame:abilities/class/cultist

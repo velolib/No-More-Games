@@ -11,4 +11,3 @@ execute if entity @s[team=Purple] run effect give @a[team=!Purple,distance=..12,
 execute if entity @s[team=Violet] run effect give @a[team=!Violet,distance=..12,gamemode=adventure] darkness 15 0 true
 execute if entity @s[team=White] run effect give @a[team=!White,distance=..12,gamemode=adventure] darkness 15 0 true
 playsound minecraft:entity.vex.charge master @a ~ ~ ~ 
-scoreboard players operation @s mobgame.cooldown1 -= velo.op_600 velo.op
