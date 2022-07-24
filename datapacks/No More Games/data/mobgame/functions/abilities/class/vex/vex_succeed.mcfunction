@@ -21,4 +21,4 @@ execute as @s[team=Maroon] run effect give @a[team=!Maroon,distance=..12,limit=1
 execute as @s[team=Purple] run effect give @a[team=!Purple,distance=..12,limit=1,sort=nearest,gamemode=adventure] slowness 2 2 true
 execute as @s[team=Violet] run effect give @a[team=!Violet,distance=..12,limit=1,sort=nearest,gamemode=adventure] slowness 2 2 true
 execute as @s[team=White] run effect give @a[team=!White,distance=..12,limit=1,sort=nearest,gamemode=adventure] slowness 2 2 true
-effect give @s slow_falling 2 2 true
+effect give @s slowness 2 2 true
