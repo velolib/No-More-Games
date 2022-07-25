@@ -10,6 +10,7 @@ scoreboard players set @a mobgame.class_id 0
 scoreboard players set @a mobgame.steve_kill 0
 scoreboard players set @a mobgame.zombie_heal 0
 scoreboard players set @a mobgame.evoker_totem 0
+scoreboard players set @a mobgame.cultist_knife 0
 
 effect clear @a
 

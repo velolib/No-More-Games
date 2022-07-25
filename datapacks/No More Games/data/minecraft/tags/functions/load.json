@@ -4,6 +4,7 @@
         "main:gamerules",
         "main:teamlogic",
         "raycast:blaze/init",
-        "main:variables"
+        "main:variables",
+        "raycast:cultist/init"
     ]
 }

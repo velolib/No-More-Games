@@ -49,3 +49,8 @@ scoreboard players set @a mobgame.cooldown3 0
     #> Evoker
     scoreboard objectives add mobgame.evoker_totem minecraft.used:totem_of_undying
     scoreboard players set @a mobgame.evoker_totem 0
+
+    #> Cultist
+    scoreboard objectives add mobgame.cultist_knife minecraft.custom:damage_dealt
+    scoreboard players set @a mobgame.cultist_knife 0
+    #declare objective mobgame.cultist_knife

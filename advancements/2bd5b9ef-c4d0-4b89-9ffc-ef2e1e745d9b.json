@@ -325,6 +325,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:husk": "2022-07-25 16:06:03 +0700",
       "minecraft:vex": "2022-07-20 07:38:02 +0700",
       "minecraft:zombie": "2022-07-19 12:20:11 +0700"
     },

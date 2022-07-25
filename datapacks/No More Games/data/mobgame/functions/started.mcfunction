@@ -7,6 +7,7 @@ scoreboard players set @a mobgame.right_click_test 0
 scoreboard players set @a mobgame.steve_kill 0
 scoreboard players set @a mobgame.zombie_heal 0
 scoreboard players set @a mobgame.evoker_totem 0
+scoreboard players set @a mobgame.cultist_knife 0
 
 effect clear @a
 # give kits

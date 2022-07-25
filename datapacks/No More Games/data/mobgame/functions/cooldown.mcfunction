@@ -33,7 +33,7 @@ execute as @s[scores={mobgame.class_id=7,mobgame.cooldown2=..79}] run scoreboard
 
 #> Class: Cultist
 execute as @s[scores={mobgame.class_id=8,mobgame.cooldown1=..1799}] run scoreboard players add @s mobgame.cooldown1 1
-execute as @s[scores={mobgame.class_id=8,mobgame.cooldown2=..2399}] run scoreboard players add @s mobgame.cooldown2 1
+execute as @s[scores={mobgame.class_id=8,mobgame.cooldown2=..1799}] run scoreboard players add @s mobgame.cooldown2 1
 execute as @s[scores={mobgame.class_id=8,mobgame.cooldown3=..2399}] run scoreboard players add @s mobgame.cooldown3 1
 
 
