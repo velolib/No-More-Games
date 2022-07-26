@@ -8,7 +8,10 @@ execute unless entity @a[scores={mobgame.class_id=..0},gamemode=adventure] if sc
 execute as @a[gamemode=adventure] at @s if score velo.var mobgame.init matches 2 run function mobgame:abilities/hub
 
 #> Abilities cooldown
-execute as @a[gamemode=adventure] at @s if score velo.var mobgame.init matches 2 run function mobgame:cooldown
+execute as @a[gamemode=adventure] if score velo.var mobgame.init matches 2 run function mobgame:cooldown
+
+#> Actionbar
+execute as @a[gamemode=adventure] if score velo.var mobgame.init matches 2 run function mobgame:actionbar/hub
 
 #> Particles
 
