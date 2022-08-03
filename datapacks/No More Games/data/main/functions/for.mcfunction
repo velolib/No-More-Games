@@ -7,6 +7,6 @@ execute as @e[type=item,tag=!velo.processed] if score velo.var velo.drop_boolean
 execute as @e[type=item,tag=!velo.processed] if score velo.var velo.drop_boolean matches 1 run data modify entity @s PickupDelay set value 0
 execute if score velo.var velo.drop_boolean matches 1 run tag @e[type=item] add velo.processed
 
-#> Falling blocks
+#> Permanence
 #define tag velo.permanent
-execute as @e[type=falling_block,tag=velo.permanent] run data merge entity @s {Time:1}
+execute as @e[tag=velo.permanent] at @s run function main:dev/permanence
