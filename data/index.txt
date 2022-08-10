@@ -1,6 +1,0 @@
-.txt file to keep track of map numbers!
-
-0-3=velogo
-4-21=jwst pinwheel
-22-39=jwst cliffs
-40-47=jwst south ring
