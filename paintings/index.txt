@@ -1,9 +1,9 @@
 .txt file to keep track of map numbers!
 
 0-3=velogo
-4-21=jwst pinwheel
+4-21=jwst cartwheel
 22-39=jwst cliffs
-40-47=jwst south ring
+40-47=jwst southern ring nebula
 48-59=valorant e5:a1
 60-77=velo landscape
-78-92=corporate art text
+78-92=risk of rain 2
