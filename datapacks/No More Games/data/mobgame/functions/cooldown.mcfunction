@@ -1,5 +1,5 @@
 #> mobgame:cooldown
-# abilities cooldown function
+# abilities cooldown function hub
 
 #> Class: Enderman
 execute as @s[scores={mobgame.class_id=2,mobgame.cooldown1=..1199}] run scoreboard players add @s mobgame.cooldown1 1
