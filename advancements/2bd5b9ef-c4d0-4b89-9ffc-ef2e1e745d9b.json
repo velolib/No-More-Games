@@ -179,6 +179,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2022-08-11 14:26:47 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_blue_dye": "2022-07-30 09:23:08 +0700"

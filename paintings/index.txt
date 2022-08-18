@@ -7,3 +7,5 @@
 48-59=valorant e5:a1
 60-77=velo landscape
 78-92=risk of rain 2
+93-104=bathroom sign
+105-122=6x3 mirror
