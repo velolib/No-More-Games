@@ -18,8 +18,7 @@ execute as @s[scores={mobgame.cooldown1=1200..},team=Violet] run effect give @a[
 execute as @s[scores={mobgame.cooldown1=1200..},team=Violet] run effect give @a[team=!Violet,distance=..15,gamemode=adventure] darkness 15 0 true
 execute as @s[scores={mobgame.cooldown1=1200..},team=White] run effect give @a[team=!White,distance=..15,gamemode=adventure] glowing 15 0 true
 execute as @s[scores={mobgame.cooldown1=1200..},team=White] run effect give @a[team=!White,distance=..15,gamemode=adventure] darkness 15 0 true
-execute as @s[scores={mobgame.cooldown1=1200..}] run playsound minecraft:entity.enderman.stare master @a ~ ~ ~ 0.9375
-execute as @s[scores={mobgame.cooldown1=1200..}] run playsound minecraft:entity.enderman.scream master @a ~ ~ ~ 0.9375
+execute as @s[scores={mobgame.cooldown1=1200..}] run playsound xmg:mobgame.ender_scream master @a ~ ~ ~ 0.9375
 
 #> Failure check
 execute if score @s mobgame.cooldown1 matches ..1199 run function main:cooldown_sfx
