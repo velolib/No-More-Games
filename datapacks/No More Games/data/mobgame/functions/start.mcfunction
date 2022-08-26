@@ -13,6 +13,11 @@ scoreboard players set @a mobgame.evoker_totem 0
 scoreboard players set @a mobgame.cultist_knife 0
 
 effect clear @a
+effect give @a weakness 999999 255 true
 
 gamemode adventure @a[team=!Observer]
 gamemode spectator @a[team=Observer]
+
+#> Tag removal edge case
+tag @a remove mobgame.cultist_heal
+tag @a remove velo.scheduled

@@ -29,6 +29,6 @@ execute as @s[scores={mobgame.class_id=6,mobgame.evoker_totem=1..}] run function
 execute as @s[scores={mobgame.class_id=7,mobgame.right_click_test=1..}] run function mobgame:abilities/class/blaze/blaze_active
 execute as @s[scores={mobgame.class_id=7}] run function mobgame:abilities/class/blaze/blaze_passive
 
-#> Cultist - A
+#> Cultist - A, A, A
 execute as @s[scores={mobgame.class_id=8,mobgame.right_click_test=1..}] run function mobgame:abilities/class/cultist/cultist_active
 execute as @s[scores={mobgame.class_id=8,mobgame.cultist_knife=1..},tag=mobgame.cultist_heal] run function mobgame:abilities/class/cultist/fx/cultist_knife

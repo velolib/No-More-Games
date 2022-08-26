@@ -12,3 +12,7 @@ scoreboard players set @a mobgame.cultist_knife 0
 effect clear @a
 # give kits
 # teleport
+
+#> Tag removal edge case
+tag @a remove mobgame.cultist_heal
+tag @a remove velo.scheduled
