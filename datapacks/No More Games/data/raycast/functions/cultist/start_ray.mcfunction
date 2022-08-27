@@ -1,5 +1,9 @@
 #> raycast:cultist/start_ray
-# Function to start the raycast
+# Description: Made using https://skylinerw.com/vdvman1/raycast/
+# Called by:   mobgame:abilities/class/cultist/cultist_active
+# Selector:    Player
+
+
 
 tag @s add cultistray
 playsound minecraft:entity.lightning_bolt.thunder player @a ~ ~ ~ 3.125 2

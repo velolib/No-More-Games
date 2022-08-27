@@ -1,11 +1,15 @@
 #> main:variables
-# Global variables used in the game
+# Description: Global variables and score holders for other functions
+# Called by:   #minecraft:load
+# Selector:    None
 
-#> variable entity for Data-pack Helper Plus
+
+
+## variable entity for Data-pack Helper Plus
 #declare entity velo.var
 #declare score_holder velo.var
 
-#> variable for dropping
+## variable for dropping
 # 0 = off
 # 1 = on
 # default on
@@ -13,7 +17,7 @@
 scoreboard objectives add velo.drop_boolean dummy
 scoreboard players set velo.var velo.drop_boolean 1
 
-#> variable for fake gametime
+## variable for fake gametime
 #define objective velo.time
 scoreboard objectives add velo.time dummy
 
@@ -28,7 +32,7 @@ scoreboard players set velo.interval_160 velo.time 160
 #define score_holder velo.interval_100
 #define score_holder velo.interval_160
 
-#> variable for operations
+## variable for operations
 #define objective velo.op
 scoreboard objectives add velo.op dummy
 

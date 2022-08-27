@@ -1,5 +1,9 @@
 #> mobgame:abilities/class/vex/vex_start
-# Start check
+# Description: Start of the Vex active ability
+# Called by:   mobgame:abilities/class/vex/vex_active
+# Selector:    Player
+
+
 
 function mobgame:abilities/scheduler
 execute if entity @s[team=Aqua] run effect give @a[team=!Aqua,distance=..12,gamemode=adventure] darkness 15 0 true

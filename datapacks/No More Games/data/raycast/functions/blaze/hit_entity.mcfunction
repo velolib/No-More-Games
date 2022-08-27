@@ -1,5 +1,9 @@
 #> raycast:blaze/hit_entity
-# Runs if an entity is hit
+# Description: Made using https://skylinerw.com/vdvman1/raycast/
+# Called by:   raycast:blaze/check_hit_entity
+# Selector:    Player
+
+
 
 scoreboard players set raycast.blaze_hit raycast.blaze_blazeray 1
 effect give @s glowing 5 5 true

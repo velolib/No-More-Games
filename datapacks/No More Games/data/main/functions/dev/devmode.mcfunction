@@ -1,4 +1,4 @@
-#> main:dev/devmode
+## main:dev/devmode
 # Run to turn on dev mode
 # /reload to turn off
 

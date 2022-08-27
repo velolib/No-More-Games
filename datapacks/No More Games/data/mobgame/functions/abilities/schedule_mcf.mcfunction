@@ -1,5 +1,9 @@
 #> mobgame:abilities/schedule_mcf
-# i dont know anymore
+# Description: Ability schedule end function
+# Called by:   mobgame:abilities/scheduler
+# Selector:    Player
+
+
 
 #declare score_holder velo.current
 execute store result score velo.current velo.time run time query gametime

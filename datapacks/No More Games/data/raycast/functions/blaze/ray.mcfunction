@@ -1,6 +1,10 @@
 #> raycast:blaze/ray
-# Main raycasting function
-# Recursive in nature
+# Description: Made using https://skylinerw.com/vdvman1/raycast/
+# Called by:   raycast:blaze/start_ray
+# Selector:    Player
+
+
+
 #declare score_holder raycast.blaze_distance
 #declare score_holder raycast.blaze_hit
 

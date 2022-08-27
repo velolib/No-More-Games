@@ -1,5 +1,9 @@
 #> raycast:blaze/start_ray
-# Function to start the raycast
+# Description: Made using https://skylinerw.com/vdvman1/raycast/
+# Called by:   mobgame:abilities/class/blaze/blaze_active
+# Selector:    Player
+
+
 
 tag @s add blazeray
 scoreboard players set raycast.blaze_hit raycast.blaze_blazeray 0

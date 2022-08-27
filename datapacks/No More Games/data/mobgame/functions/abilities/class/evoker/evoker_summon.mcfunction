@@ -1,5 +1,9 @@
 #> mobgame:abilities/class/evoker/evoker_summon
-# 6 vexes!
+# Description: Summoning vexes based on team for the Evoker class
+# Called by:   mobgame:abilities/class/evoker/evoker_active
+# Selector:    Player
+
+
 
 execute as @s[team=Aqua] run summon vex ~ ~1 ~ {LifeTicks:400,Team:"Aqua"}
 execute as @s[team=Aqua] run summon vex ~ ~1 ~ {LifeTicks:400,Team:"Aqua"}

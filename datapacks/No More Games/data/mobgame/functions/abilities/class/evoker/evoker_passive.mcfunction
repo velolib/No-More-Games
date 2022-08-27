@@ -1,14 +1,18 @@
 #> mobgame:abilities/class/evoker/evoker_passive
-# Help! I need somebody
+# Description: Passive effect for the Evoker class
+# Called by:   mobgame:abilities/hub
+# Selector:    Player
+
+
 
 scoreboard players set @s mobgame.evoker_totem 0
 
-#> Self effects
+## Self effects
 effect give @s slowness 3 3 true
 effect give @s blindness 3 3 true
 effect give @s weakness 3 3 true
 
-#> Enemy effects
+## Enemy effects
 effect give @a[distance=1..16,gamemode=adventure] darkness 60 0 true
 effect give @a[distance=1..16,gamemode=adventure] nausea 5 0 true
 effect give @a[distance=1..16,gamemode=adventure] wither 5 1 true

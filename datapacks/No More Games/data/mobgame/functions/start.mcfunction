@@ -1,5 +1,9 @@
 #> mobgame:start
-# Used by users to start the game.
+# Description: Function to start the Mob Mania game
+# Called by:   World
+# Selector:    Player
+
+
 
 # teleport all to selection
 
@@ -18,6 +22,6 @@ effect give @a weakness 999999 255 true
 gamemode adventure @a[team=!Observer]
 gamemode spectator @a[team=Observer]
 
-#> Tag removal edge case
+## Tag removal edge case
 tag @a remove mobgame.cultist_heal
 tag @a remove velo.scheduled

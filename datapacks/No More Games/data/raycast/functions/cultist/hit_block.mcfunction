@@ -1,5 +1,9 @@
 #> raycast:cultist/hit_block
-# Runs if a block was hit
+# Description: Made using https://skylinerw.com/vdvman1/raycast/
+# Called by:   raycast:cultist/ray
+# Selector:    Player
+
+
 
 scoreboard players set raycast.cultist_hit raycast.cultist_ray 1
 effect give @a[distance=0..5] glowing 5 5 true

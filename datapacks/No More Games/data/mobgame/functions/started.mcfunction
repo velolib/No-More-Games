@@ -1,5 +1,9 @@
-#> mobgame:started 
-# Function for when the game starts
+#> mobgame:started
+# Description: Function that runs after selecting kits
+# Called by:   mobgame:prompt
+# Selector:    Player
+
+
 
 scoreboard players set velo.var mobgame.init 2
 scoreboard players set @a mobgame.right_click_test 0
@@ -13,6 +17,6 @@ effect clear @a
 # give kits
 # teleport
 
-#> Tag removal edge case
+## Tag removal edge case
 tag @a remove mobgame.cultist_heal
 tag @a remove velo.scheduled

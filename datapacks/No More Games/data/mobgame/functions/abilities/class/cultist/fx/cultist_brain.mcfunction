@@ -1,17 +1,21 @@
 #> mobgame:abilities/class/cultist/fx/cultist_brain
-# huge
+# Description: Brain of Confusion ability for the Cultist class
+# Called by:   mobgame:abilities/class/cultist/cultist_active
+# Selector:    Player
+
+
 
 playsound minecraft:entity.elder_guardian.curse master @a ~ ~ ~ 1.3333 2
 
-#> All players
+## All players
 effect give @a[distance=..20] invisibility 15 0 true
 effect give @a[distance=..20] weakness 15 0 true
 effect give @a[distance=..20] blindness 2 2 true
 
-#> Self
+## Self
 effect give @s speed 15 0 true
 
-#> Enemies
+## Enemies
 execute as @s[team=Aqua] run effect give @a[distance=..20] nausea 15 2 true
 execute as @s[team=Aqua] run effect give @a[distance=..20] darkness 15 2 true
 execute as @s[team=Blue] run effect give @a[distance=..20] nausea 15 2 true

@@ -1,4 +1,9 @@
 #> mobgame:actionbar/class/steve
+# Description: Actionbar logic function for this class
+# Called by:   mobgame:actionbar/hub
+# Selector:    Player
+
+
 
 title @s[scores={mobgame.cooldown1=1200..}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "Seco","color": "#2389c7","bold": false},{"text": "nd W","color": "#FFFFFF","bold": false},{"text": "ind","color": "#fede5f","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]
 title @s[scores={mobgame.cooldown1=600..1199}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "Seco","color": "#2389c7","bold": false},{"text": "nd W","color": "#FFFFFF","bold": false},{"text": "ind","color": "#fede5f","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌","color": "yellow","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]

@@ -1,8 +1,11 @@
 #> main:gamerules
-# Gamerules for the game. Do not tamper
+# Description: Gamerules for the game
+# Called by:   #minecraft:load
+# Selector:    None
+
+
 
 tellraw @a [{"text": "No More Games ","bold": true,"color": "gold"},{"text": "Data-pack reloaded!","bold": false,"color": "gold"}]
-
 gamerule commandBlockOutput false
 gamerule disableRaids true
 gamerule doDaylightCycle false

@@ -1,5 +1,9 @@
 #> mobgame:actionbar/class/cultist
-# lots of harcoding... please help
+# Description: Actionbar logic function for this class
+# Called by:   mobgame:actionbar/hub
+# Selector:    Player
+
+
 
 title @s[scores={mobgame.cooldown1=1800..,mobgame.cooldown2=1800..,mobgame.cooldown3=2400..}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Brain","color": "#2389c7","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Eye","color": "#FFFFFF","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Knife","color": "#fede5f","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]
 title @s[scores={mobgame.cooldown1=1800..,mobgame.cooldown2=1800..,mobgame.cooldown3=..2399}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Brain","color": "#2389c7","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Eye","color": "#FFFFFF","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Knife","color": "#fede5f","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]
@@ -9,13 +13,3 @@ title @s[scores={mobgame.cooldown1=1800..,mobgame.cooldown2=..1799,mobgame.coold
 title @s[scores={mobgame.cooldown1=..1799,mobgame.cooldown2=1800..,mobgame.cooldown3=..2399}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Brain","color": "#2389c7","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Eye","color": "#FFFFFF","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Knife","color": "#fede5f","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]
 title @s[scores={mobgame.cooldown1=..1799,mobgame.cooldown2=..1799,mobgame.cooldown3=2400..}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Brain","color": "#2389c7","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Eye","color": "#FFFFFF","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "✔ ","color": "green","bold": false},{"text": "Knife","color": "#fede5f","bold": false},{"text": " ✔","color": "green","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]
 title @s[scores={mobgame.cooldown1=..1799,mobgame.cooldown2=..1799,mobgame.cooldown3=..2399}] actionbar [{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Brain","color": "#2389c7","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Eye","color": "#FFFFFF","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false},{"text": "❌ ","color": "red","bold": false},{"text": "Knife","color": "#fede5f","bold": false},{"text": " ❌","color": "red","bold": false},{"text": " I\uF802|\uF802I ","color": "white","bold": false}]
-
-# 111
-# 110
-# 101
-# 011
-# 100
-# 010
-# 001
-# 000
-# binary!

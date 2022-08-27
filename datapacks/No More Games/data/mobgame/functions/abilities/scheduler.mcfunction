@@ -1,5 +1,9 @@
 #> mobgame:abilities/scheduler
-# scheduler
+# Description: Ability schedule start function
+# Called by:   Multiple
+# Selector:    Player
+
+
 
 execute store result score @s velo.time run time query gametime
 

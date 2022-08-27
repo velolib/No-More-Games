@@ -1,5 +1,9 @@
 #> mobgame:abilities/class/pillager/pillager_burnout
-# pillager burnout
+# Description: End of the Pillager class active ability
+# Called by:   mobgame:abilities/schedule_mcf
+# Selector:    Player
+
+
 
 effect give @s slowness 5 1 true
 effect give @s resistance 5 2 true
