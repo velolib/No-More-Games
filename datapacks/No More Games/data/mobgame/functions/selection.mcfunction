@@ -5,6 +5,8 @@
 
 
 
+clear @s
+
 ## Class Identification
 # 1 = Zombie
 # 2 = Enderman
