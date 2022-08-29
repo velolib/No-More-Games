@@ -5,6 +5,7 @@
         "main:teamlogic",
         "raycast:blaze/init",
         "main:variables",
-        "raycast:cultist/init"
+        "raycast:cultist/init",
+        "main:particles/hub"
     ]
 }

@@ -1,6 +1,7 @@
 {
     "values":[
         "mobgame:for",
-        "main:for"
+        "main:for",
+        "main:particles/hub_for"
     ]
 }
