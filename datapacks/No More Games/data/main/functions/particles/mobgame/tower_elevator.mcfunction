@@ -11,7 +11,10 @@ execute if score velo.var mobgame.particle.tower_elevator matches 20.. positione
 execute if score velo.var mobgame.particle.tower_elevator matches 20.. run scoreboard players set velo.var mobgame.particle.tower_elevator 0
 
 ## Elevator
+# if not sneaking: levitate
 execute as @a[x=-1001,y=167,z=-991,dx=0.4,dy=11,dz=-1,predicate=!main:is_sneaking] run effect give @s levitation 1 6 true
+# if sneaking: high gravity
 execute as @a[x=-1001,y=167,z=-991,dx=0.4,dy=11,dz=-1,predicate=main:is_sneaking] run effect give @s levitation 1 220 true
+# clears effects outside region
 execute as @a[x=-998.6,y=167,z=-991,dx=0.4,dy=11,dz=-1] run effect clear @s levitation
 execute as @a[x=-999,y=175,z=-993,dx=-3,dy=4,dz=0] run effect clear @s levitation
