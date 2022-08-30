@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'There\\'s a zombie on your lawn\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Undead Skin Boots\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'Prove to the universe you are free!\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ender Boots\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'hmm hmm hmm illager hmm\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ill Boots\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 3
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'And the player was the universe.\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"And the player was love.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Steve\\'s Boots\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'It watches - calculating. Recording. Witnessing.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Dimensional Boots\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'You were only waiting for this moment to arise.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Evocation Shoes\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 6
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Diamond boots infused with lava\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Blazing Boots\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 7
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"TH\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"E\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\" CONS\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"E\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"QU\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"E\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"NC\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"E\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"S \"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"W\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"I\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"L\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"L\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\" \"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"B\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"E\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\" \"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"FATA\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"L\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Cultist Boots\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 8
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

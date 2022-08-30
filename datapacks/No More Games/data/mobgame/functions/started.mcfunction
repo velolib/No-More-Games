@@ -14,7 +14,7 @@ scoreboard players set @a mobgame.evoker_totem 0
 scoreboard players set @a mobgame.cultist_knife 0
 
 effect clear @a
-# give kits
+execute as @a at @s run function mobgame:selection
 # teleport
 
 ## Tag removal edge case

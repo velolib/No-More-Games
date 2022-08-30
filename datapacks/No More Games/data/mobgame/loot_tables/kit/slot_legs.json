@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'There\\'s a zombie on your lawn\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Undead Skin Leggings\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'Reap the rewards of your toil.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ender Leg Armor\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'hmm hmm\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ill Pants\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 3
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'And the player began a new dream.\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"And the player dreamed again, dreamed better.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Steve\\'s Leggings\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'A million permutations.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Dimensional Leggings\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'All your life,\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Evocation Pants\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 6
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Diamond leggings infused with lava\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Blazing Leggings\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 7
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_gray\",\"text\":\"...\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"IN\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"T\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"E\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"RR\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"UP\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"T\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\" OUR \"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"R\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"I\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"T\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"UAL.\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Cultist Pants\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 8
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

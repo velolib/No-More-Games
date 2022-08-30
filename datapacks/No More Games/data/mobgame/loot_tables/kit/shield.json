@@ -1,0 +1,120 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:3},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Aqua Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Aqua"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:11},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Blue Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Blue"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:1},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Gold Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Gold"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:5},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Lime Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Lime"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:14},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Maroon Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Maroon"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:6},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Purple Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Purple"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:10},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"Violet Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "Violet"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Base:0},Damage:0,Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:38,Unbreakable:false,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Don\\'t forget to use protection!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"STANDARD ITEM\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"White Shield\"}],\"text\":\"\"}'}}",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "team": "White"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

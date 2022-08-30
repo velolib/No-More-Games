@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'There\\'s a zombie on your lawn\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Undead Skin Chestplate\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'Step foot on another world.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ender Aegis\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'Hmm hmm villagers\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ill Shirt\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 3
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'And the game was over.\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_gray\",\"text\":\"and the player woke up from the dream.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Steve\\'s Chestplate\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'A million scenarios.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Dimensional Aegis\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'Take these broken wings and learn to fly,\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Evocation Robe\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 6
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Diamond chestplate infused with lava\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Blazing Chestplate\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 7
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Damage:0,Enchantments:[{id:\"protection\",lvl:4},{id:\"binding_curse\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"D\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"O\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\" N\"},{\"italic\":true,\"obfuscated\":true,\"color\":\"dark_gray\",\"text\":\"O\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"T...\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Cultist Robe\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 8
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

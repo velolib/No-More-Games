@@ -1,0 +1,93 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:707101,Damage:0,Enchantments:[{id:\"unbreaking\",lvl:3}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'We don\\'t want zombies on the lawn\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Spooky\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:707102,Damage:0,Enchantments:[{id:\"unbreaking\",lvl:3}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'Your final task is rescinded.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Fractured Moment\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:707105,Damage:0,Enchantments:[{id:\"minecraft:sharpness\",lvl:2}],Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'I see the player you mean.\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Impact Stabber\"}],\"text\":\"\"}'},HideFlags:6}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 4
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:707107,Damage:0,Enchantments:[{id:\"sharpness\",lvl:2}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"\\'It always leads me here\\'\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Long and Winding Sword\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 6
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:707109,Damage:0,Enchantments:[{id:\"fire_aspect\",lvl:1}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"1000 °C\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Fiery Shortsword\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 7
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:707110,Damage:0,Enchantments:[{id:\"unbreaking\",lvl:3}],HideFlags:6,Unbreakable:1b,display:{Lore:['{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"italic\":true,\"color\":\"dark_gray\",\"text\":\"Celestial creatures are invading!\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"\"}],\"text\":\"\"}','{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"R\"},{\"bold\":true,\"color\":\"light_purple\",\"text\":\" SPECIAL ITEM \"},{\"bold\":true,\"obfuscated\":true,\"color\":\"light_purple\",\"text\":\"U\"}],\"text\":\"\"}'],Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"Ark\"}],\"text\":\"\"}'}}\n",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_scores",
+                                    "entity": "this",
+                                    "scores": {
+                                        "mobgame.class_id": 8
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
