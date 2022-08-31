@@ -1,6 +1,6 @@
 #> mobgame:abilities/class/vex/vex_tp
 # Description: Checks teleport requirements for the Vex class
-# Called by:   mobgame:for
+# Called by:   mobgame:cooldown
 # Selector:    Player
 
 
