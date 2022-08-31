@@ -19,4 +19,3 @@ execute as @a at @s run function mobgame:selection
 
 ## Tag removal edge case
 tag @a remove mobgame.cultist_heal
-tag @a remove velo.scheduled

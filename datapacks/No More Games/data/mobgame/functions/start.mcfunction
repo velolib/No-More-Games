@@ -24,4 +24,3 @@ gamemode spectator @a[team=Observer]
 
 ## Tag removal edge case
 tag @a remove mobgame.cultist_heal
-tag @a remove velo.scheduled

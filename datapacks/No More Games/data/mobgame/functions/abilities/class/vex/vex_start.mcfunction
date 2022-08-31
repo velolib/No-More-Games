@@ -5,7 +5,8 @@
 
 
 
-function mobgame:abilities/scheduler
+tag @s add mobgame.waiting
+scoreboard players set @s mobgame.cooldown3 0
 execute if entity @s[team=Aqua] run effect give @a[team=!Aqua,distance=..12,gamemode=adventure] darkness 15 0 true
 execute if entity @s[team=Blue] run effect give @a[team=!Blue,distance=..12,gamemode=adventure] darkness 15 0 true
 execute if entity @s[team=Gold] run effect give @a[team=!Gold,distance=..12,gamemode=adventure] darkness 15 0 true

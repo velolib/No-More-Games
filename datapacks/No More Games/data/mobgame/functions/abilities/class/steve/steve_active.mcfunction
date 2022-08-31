@@ -6,7 +6,8 @@
 
 
 ## Activation check
-execute as @s[scores={mobgame.cooldown1=1200..}] run function mobgame:abilities/scheduler
+execute as @s[scores={mobgame.cooldown1=1200..}] run scoreboard players set @s mobgame.cooldown2 0
+execute as @s[scores={mobgame.cooldown1=1200..}] run tag @s add mobgame.waiting
 execute as @s[scores={mobgame.cooldown1=1200..}] run effect give @s slowness 3 255 true
 execute as @s[scores={mobgame.cooldown1=1200..}] run effect give @s jump_boost 3 128 true
 execute as @s[scores={mobgame.cooldown1=1200..}] run playsound xmg:mobgame.3s_ascend master @a ~ ~ ~

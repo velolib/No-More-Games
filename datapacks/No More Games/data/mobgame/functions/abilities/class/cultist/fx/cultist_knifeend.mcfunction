@@ -1,6 +1,6 @@
 #> mobgame:abilities/class/cultist/fx/cultist_knifeend
 # Description: End of the Vampire Knife ability for the Cultist class
-# Called by:   mobgame:abilities/schedule_mcf
+# Called by:   mobgame:for
 # Selector:    Player
 
 

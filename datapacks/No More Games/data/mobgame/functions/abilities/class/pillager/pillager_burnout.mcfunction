@@ -1,10 +1,12 @@
 #> mobgame:abilities/class/pillager/pillager_burnout
 # Description: End of the Pillager class active ability
-# Called by:   mobgame:abilities/schedule_mcf
+# Called by:   mobgame:cooldown
 # Selector:    Player
 
 
 
+scoreboard players set @s mobgame.cooldown2 0
+tag @s remove mobgame.waiting
 effect give @s slowness 5 1 true
 effect give @s resistance 5 2 true
 effect give @s darkness 10 0 true

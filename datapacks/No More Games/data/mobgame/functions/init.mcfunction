@@ -5,9 +5,9 @@
 
 
 
+#declare tag mobgame.waiting
 ## Edge case tag removal
 tag @a remove mobgame.cultist_heal
-tag @a remove velo.scheduled
 
 ## Game stats variable
 # 0 = OFF
