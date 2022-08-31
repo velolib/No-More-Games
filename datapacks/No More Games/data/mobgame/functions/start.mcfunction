@@ -23,4 +23,4 @@ gamemode adventure @a[team=!Observer]
 gamemode spectator @a[team=Observer]
 
 ## Tag removal edge case
-tag @a remove mobgame.cultist_heal
+execute as @a at @s run function main:untag

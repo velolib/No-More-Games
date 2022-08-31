@@ -18,4 +18,4 @@ execute as @a at @s run function mobgame:selection
 # teleport
 
 ## Tag removal edge case
-tag @a remove mobgame.cultist_heal
+execute as @a at @s run function main:untag

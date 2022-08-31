@@ -6,6 +6,7 @@
         "raycast:blaze/init",
         "main:variables",
         "raycast:cultist/init",
-        "main:particles/hub"
+        "main:particles/hub",
+        "main:untag"
     ]
 }
