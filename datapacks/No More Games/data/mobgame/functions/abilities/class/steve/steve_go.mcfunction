@@ -15,3 +15,8 @@ playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 1.059463
 ## Reset
 tag @s remove mobgame.waiting
 scoreboard players set @s mobgame.cooldown2 0
+
+## Subtitle
+title @s title {"text": ""}
+title @s times 0 20 10
+title @s subtitle [{"text": "◆ ◆ ◆ ◆ ◆","color":"green"},{"text": "","color": "red"}]

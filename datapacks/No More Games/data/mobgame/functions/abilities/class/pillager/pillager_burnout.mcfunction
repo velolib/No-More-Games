@@ -5,6 +5,9 @@
 
 
 
+title @s title {"text": ""}
+title @s times 0 20 10
+title @s subtitle [{"text": "◆ ◆ ◆ ◆ ◆","color":"green"},{"text": "","color": "red"}]
 scoreboard players set @s mobgame.cooldown2 0
 tag @s remove mobgame.waiting
 effect give @s slowness 5 1 true

@@ -7,6 +7,9 @@
 
 tag @s remove mobgame.waiting
 scoreboard players set @s mobgame.cooldown3 0
+title @s subtitle [{"text": "◆ ◆ ◆ ◆","color":"green"},{"text": "","color": "red"}]
+title @s title {"text": ""}
+title @s times 0 20 10
 ## Succeed check
 execute as @s[team=Aqua] at @a[team=!Aqua,distance=..12,limit=1,sort=nearest,gamemode=adventure] if block ^ ^ ^-0.9 #mobgame:vex_tp run function mobgame:abilities/class/vex/vex_succeed
 execute as @s[team=Blue] at @a[team=!Blue,distance=..12,limit=1,sort=nearest,gamemode=adventure] if block ^ ^ ^-0.9 #mobgame:vex_tp run function mobgame:abilities/class/vex/vex_succeed
